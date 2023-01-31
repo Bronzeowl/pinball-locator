@@ -1,0 +1,83 @@
+.btn {
+  border: 0;
+}
+
+.dropdown-menu .btn {
+  border-radius: 0;
+  text-align: left;
+}
+
+.input-group .form-control {
+  border: 0;
+  max-width: 120px;
+}
+
+#locationData {
+  font-size: 16px;
+}
+
+#locationData address {
+  font-size: 18px;
+}
+
+#locationData .machines-button .fa-angle-right {
+  display: none;
+}
+
+#locationData .machines-button.collapsed .fa-angle-right {
+  display: inline-block;
+}
+
+#locationData .machines-button.collapsed .fa-angle-down {
+  display: none;
+}
+
+.big-form .form-control {
+  border: 0;
+  max-width: 140px;
+}
+
+.big-form .btn-dark {
+  background: #000;
+}
+
+.big-form #submitSearch {
+  max-width: 300px;
+}
+
+@media (max-width: 767px) {
+  .big-form .btn,
+  .big-form .form-control,
+  .big-form #submitSearch {
+    width: 100%;
+    max-width: 100%;
+    font-size: 18px;
+  }
+}
+
+.navbar {
+  background: #000;
+}
+
+.fa-spinner {
+  display: none;
+}
+
+.inProgress .fa-location-arrow {
+  display: none;
+}
+
+.inProgress .fa-spinner {
+  display: inline-block;
+}
+
+#geolocate,
+#distance {
+  background: #d0e8ff;
+}
+
+#geolocate:hover,
+#distance:hover {
+  background: #a9cbff;
+}
+/*# sourceMappingURL=main.css.map */

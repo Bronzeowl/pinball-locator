@@ -1,0 +1,100 @@
+.btn {
+    border: 0;
+}
+
+.dropdown-menu {
+    .btn {
+        border-radius: 0;
+        text-align: left;
+    }
+}
+
+.input-group {
+    .form-control {
+        border: 0;
+        max-width: 120px;
+    }
+
+
+}
+
+#locationData {
+    font-size: 16px;
+
+    address {
+        font-size: 18px;
+    }
+
+    .machines-button {
+        .fa-angle-right {
+            display: none;
+        }
+
+        &.collapsed {
+
+            .fa-angle-right {
+                display: inline-block;
+            }
+
+            .fa-angle-down {
+                display: none;
+            }
+        }
+    }
+
+}
+
+.big-form {
+    .form-control {
+        border: 0;
+        max-width: 140px;
+    }
+
+    .btn-dark {
+        background: #000;
+    }
+
+    #submitSearch {
+        max-width: 300px;
+    }
+
+    @media (max-width: 767px) {
+
+        .btn,
+        .form-control,
+        #submitSearch {
+            width: 100%;
+            max-width: 100%;
+            font-size: 18px;
+        }
+
+    }
+}
+
+.navbar {
+    background: #000;
+}
+
+
+.fa-spinner {
+    display: none;
+}
+
+.inProgress {
+    .fa-location-arrow {
+        display: none;
+    }
+
+    .fa-spinner {
+        display: inline-block;
+    }
+}
+
+#geolocate,
+#distance {
+    background: rgb(208, 232, 255);
+
+    &:hover {
+        background: rgb(169, 203, 255);
+    }
+}
